@@ -25,10 +25,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'u7*d35s28__32v-u*o3y*7h03gvu_5lk2o*4p914n11_u7x#p+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
 
+DEBUG = False
+
+ALLOWED_HOSTS = ['127.0.0.1','imgupload.herokuapp.com']
 
 # Application definition
 # 'whitenoise.runserver_nostatic',
