@@ -31,7 +31,7 @@ SECRET_KEY = 'u7*d35s28__32v-u*o3y*7h03gvu_5lk2o*4p914n11_u7x#p+'
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','imguploaded.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','https://imguploaded.herokuapp.com/']
 
 # Application definition
 # 'whitenoise.runserver_nostatic',
